@@ -33,6 +33,7 @@ body {
 img {
   height: auto;
   max-width: 100%;
+  border-radius:5px;
 }
 em {
   font-weight: bold;
@@ -63,7 +64,7 @@ small {
     font-size: 13px;
   }
   #title{
-    font-size:13px;
+    font-size:25px;
   }
   .footer {
     font-size: 13px;
