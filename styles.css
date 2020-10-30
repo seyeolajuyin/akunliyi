@@ -1,9 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap");
+
+
+
 body {
 
   --webkit-font-smoothing: antialiased;
+  font-family: "Open Sans", sans-serif;
   background-color: #e9ecef;
   min-height: 100vh;
 }
+
+
+
 
 @media (min-width: 768px) {
 
