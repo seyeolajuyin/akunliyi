@@ -1,75 +1,16 @@
 body {
-  margin: 10px 10px;
 
-  border-radius: 10px;
-  font-family: "Poppins";
   --webkit-font-smoothing: antialiased;
-  color: #ffffff;
-}
-#main {
-  width: 99%;
-  margin: auto;
-  background: #ea8a95;
-  border-radius: 5px;
-}
-.top {
-  text-align: center;
-  padding-top: 20px;
-}
-#img-div {
-  justify-content: center;
-  text-align: center;
-  background-color: #09e6f1;
-  padding: 20px;
-  border-radius: 5px;
-  margin: auto;
-  width: 90%;
-}
-#tribute-info {
-  width: 50%;
-  margin: auto;
+  background-color: #e9ecef;
+  min-height: 100vh;
 }
 
-img {
-  height: auto;
-  max-width: 100%;
-  border-radius:5px;
-}
-em {
-  font-weight: bold;
-  color: aqua;
-}
-.intro {
-  text-align: left;
-  font-size: medium;
-}
-.footer {
-  width: 90%;
-  margin: auto;
-}
-.footer em {
-  font-style: normal;
-  font-weight: normal;
-  font-size: large;
-}
-#link {
-  text-align: center;
-}
-small {
-  text-align: center;
-}
-@media (max-width: 700px) {
-  #tribute-info {
-    width: 70%;
-    font-size: 13px;
-  }
-  #title{
-    font-size:25px;
-  }
-  .footer {
-    font-size: 13px;
-  }
-  .intro {
-    font-size: 13px;
+@media (min-width: 768px) {
+
+  .dora-image {
+    border-color: 2px red solid;
+    align-items: center;
+    width: 80%;
+    margin: 10px auto;
   }
 }
