@@ -8,9 +8,8 @@ body {
 @media (min-width: 768px) {
 
   .dora-image {
-    border-color: 2px red solid;
-    align-items: center;
-    width: 80%;
+
+    width: 70%;
     margin: 10px auto;
   }
 }
